@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(112, 13, 112);
+}
+.todolist {
+    width: 600px;
+    min-height: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: linear-gradient(
+        #008F7A,
+        #00817D,
+        #00737A,
+        #136473,
+        #265667,
+        #2F4858
+        );
+    z-index: 11111 !important;
+}
+
+.todolist input {
+    margin-left: 20px;
+    border: none;
+    height: 40px;
+    width: 400px;
+    background: #136473;
+    border-radius: 5px;
+    color: white;
+    padding: 0 20px;
+}
+
+.todolist input::placeholder{
+    font-size: 18px;
+    color: rgba(255,255,255,0.6);
+}
+
+.todolist input:focus {
+    outline: none;
+}
+
+/* .todolist .btn {
+    width: 100%;
+    height: 50px; 
+     margin-left: 20px;
+} */
