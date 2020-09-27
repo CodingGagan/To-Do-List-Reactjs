@@ -41,26 +41,26 @@ var Header = () => {
 
                 <nav className="navbar navbar-expand-lg bg-dark">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/">Dashboard </Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
-                            <Link className="nav-link" to="/to-do-list">To Do List</Link>
+                            <Link className="nav-link" to="/">To Do List</Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/about" className="nav-link">About</Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </nav>
 
                 <Switch className="navbar">
-                    <Route exact path="/"> <Dashboard /> </Route>
-                    <Route path="/to-do-list"> <ToDoList /> </Route>
-                    <Route path="/contact"> <Contact /> </Route>
-                    <Route path="/about"> <About /> </Route>
+                    {/* <Route path="/"> <Dashboard /> </Route> */}
+                    <Route exact path="/"> <ToDoList /> </Route>
+                    {/* <Route path="/contact"> <Contact /> </Route>
+                    <Route path="/about"> <About /> </Route> */}
                 </Switch>
             </div>
         </Router>

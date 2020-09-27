@@ -4,7 +4,7 @@ class Contact extends Component {
     render() { 
         return (
             <React.Fragment>
-                <h1>Hi i'm Contact Moth$#@r F$#@ker</h1>
+                <h1>Hi i'm Contact Page</h1>
             </React.Fragment>
           );
     }
