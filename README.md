@@ -1,3 +1,5 @@
+## Click on To Do List to see the app.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
